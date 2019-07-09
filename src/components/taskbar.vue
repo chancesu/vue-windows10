@@ -38,11 +38,16 @@
     <div class="show-desktop"></div>
     <div class="taskbar-color">
     </div>
+    <calendar></calendar>
 </div>
 </template>
 
 <script>
+import calendar   from '../components/calendar/index'
 export default {
+    components: {
+        calendar
+    },
     data () {
         return {
             isDrag : false,
